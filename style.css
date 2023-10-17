@@ -1,10 +1,11 @@
 .father {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   gap: 10px;
   justify-content: center;
-  align-items: flex-start;
+  /* flex-flow: row wrap; */
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .box {
