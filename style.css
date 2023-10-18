@@ -1,14 +1,11 @@
 .father {
   height: 100vh;
   display: flex;
-  gap: 10px;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
 .box {
-  width: 200px;
   height: 200px;
   background-color: tomato;
   font-size: 36px;
@@ -19,9 +16,11 @@
 }
 
 .box:first-child {
-  align-self: flex-start;
+  background-color: tomato;
+  flex-grow: 1;
 }
 
 .box:last-child {
-  align-self: flex-end;
+  background-color: teal;
+  flex-grow: 5;
 }
