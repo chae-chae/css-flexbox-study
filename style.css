@@ -13,3 +13,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.child:last-child {
+  background-color: teal;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
