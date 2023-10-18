@@ -3,9 +3,8 @@
   display: flex;
   gap: 10px;
   justify-content: center;
-  /* flex-flow: row wrap; */
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .box {
@@ -17,4 +16,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.box:first-child {
+  align-self: flex-start;
+}
+
+.box:last-child {
+  align-self: flex-end;
 }
