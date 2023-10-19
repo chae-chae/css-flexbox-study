@@ -34,5 +34,6 @@ body {
   background-color: teal;
   /* align-self: start;
   justify-self: end; */
-  place-self: start end;
+  place-self: center;
+  grid-column: span 2;
 }
