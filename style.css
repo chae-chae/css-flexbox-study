@@ -9,12 +9,7 @@ body {
   display: grid;
   height: 100vh;
   gap: 10px;
-  grid-template-columns: repeat(3, 100px);
-  grid-template-rows: repeat(2, 100px);
-  background-color: lightblue;
-  /* align-content: center;
-  justify-content: space-between; */
-  place-content: center center;
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .child {
