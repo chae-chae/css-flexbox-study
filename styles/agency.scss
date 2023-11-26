@@ -2,11 +2,15 @@
 
 body {
   height: 100vh;
-  background-color: purple;
+  background-color: #7d4aa9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .wrapper {
   background-color: black;
+  max-width: 80%;
 }
 
 .grid {
